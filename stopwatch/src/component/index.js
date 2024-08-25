@@ -66,7 +66,7 @@ class Stopwatch extends Component {
                   src="https://assets.ccbp.in/frontend/react-js/stopwatch-timer.png"
                   alt="stopwatch"
                 /> */}
-                <p className="stopwatch-timer">`Time: ${time}</p>
+                <p className="stopwatch-timer">Time: ${time}</p>
               </div>
               {/* <h1 className="stopwatch-timer">{time}</h1> */}
               <div className="timer-buttons">
