@@ -78,13 +78,13 @@ class Stopwatch extends Component {
                 >
                   Start
                 </button>
-                {/* <button
+                <button
                   type="button"
                   className="stop-button button"
                   onClick={this.onStopTimer}
                 >
                   Stop
-                </button> */}
+                </button>
                 <button
                   type="button"
                   className="reset-button button"
