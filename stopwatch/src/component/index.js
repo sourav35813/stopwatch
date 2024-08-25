@@ -46,7 +46,7 @@ class Stopwatch extends Component {
       const minutes = Math.floor(timeElapsedInSeconds / 60)
   
       if (minutes < 10) {
-        return `${minutes}`
+        return `0${minutes}`
       }
       return minutes
     }
