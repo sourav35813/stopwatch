@@ -45,9 +45,9 @@ class Stopwatch extends Component {
       const {timeElapsedInSeconds} = this.state
       const minutes = Math.floor(timeElapsedInSeconds / 60)
   
-      if (minutes < 10) {
-        return `0${minutes}`
-      }
+    //   if (minutes < 10) {
+    //     return `0${minutes}`
+    //   }
       return minutes
     }
   
@@ -66,9 +66,9 @@ class Stopwatch extends Component {
                   src="https://assets.ccbp.in/frontend/react-js/stopwatch-timer.png"
                   alt="stopwatch"
                 /> */}
-                <p className="heading">Time</p>
+                <p className="stopwatch-timer">`Time: ${time}</p>
               </div>
-              <h1 className="stopwatch-timer">{time}</h1>
+              {/* <h1 className="stopwatch-timer">{time}</h1> */}
               <div className="timer-buttons">
                 <button
                   type="button"
